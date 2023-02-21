@@ -57,6 +57,12 @@ body{
 }
 
 @media screen and (max-width:400px){
+    h1{
+        font-size: 25px;
+    }
+    hr{
+        width: 300px;
+    }
     #area2{
         margin-left: 40px;
         width: 300px;
