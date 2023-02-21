@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#area1{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#area2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 510px;
+}
+#key{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+}
+.mgcls{
+    margin: 10px;
+    font-size: 25px;
+}
+#btn{
+    padding: 5px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+#btn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0rem 0.4rem 1.4rem 0 red;
+    transition: 400ms;
+    cursor: pointer;
+}
+#displaybox1{   
+    width: 500px;
+    height: 100px;
+    margin-left: 510px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(3, 148, 3);
+}
+#displaybox2{
+    width: 500px;
+    height: 100px;
+    margin-left: 510px;
+    margin-top: -100px;
+    font-size: 30px;
+    color: rgb(185, 25, 25);
+}
+
+@media screen and (max-width:400px){
+    #area2{
+        margin-left: 40px;
+        width: 300px;
+    }
+    #displaybox1{
+        width: 300px;
+        margin-left: 40px;
+    }
+    #displaybox2{
+        width: 300px;
+        margin-left: 40px;
+    }
+    #key{
+        width: 280px;
+    }
+    #btn{
+        width: 100px;
+    }
+}
