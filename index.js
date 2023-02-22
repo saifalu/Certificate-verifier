@@ -8,12 +8,12 @@ let data = ["1111111111","2222222222","3333333333"]
             
             if(key==""){
                 displaybox1.innerHTML=""
-                displaybox2.innerHTML="key number is not entered"
+                displaybox2.innerHTML="🚫 key number is not entered"
                 return 0;
             }
             if(key.length<10 || key.length>10){
                 displaybox1.innerHTML=""
-                displaybox2.innerHTML="enter a valid 10 charachter key"
+                displaybox2.innerHTML= "🚫 enter a valid 10 charachter key"
                 return 0;
             }
             let count = false
@@ -25,12 +25,12 @@ let data = ["1111111111","2222222222","3333333333"]
 
             if(count==true){
                 displaybox2.innerHTML=""
-                displaybox1.innerHTML = " ✅✔✓ certificate is valid"
+                displaybox1.innerHTML = "✔ certificate is valid"
                 return 0;
             }
             else{
                 displaybox1.innerHTML=""
-                displaybox2.innerHTML="certificte is not valid"
+                displaybox2.innerHTML="❌ certificte is not valid"
                 return 0;
             }
 
