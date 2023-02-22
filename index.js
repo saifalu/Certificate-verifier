@@ -8,8 +8,7 @@ let data = ["1111111111","2222222222","3333333333"]
             
             if(key==""){
                 displaybox1.innerHTML=""
-                minibox2.classList.toggle('db2img')
-                displaybox2.innerHTML='<img src="/wrong.png">'+'key number is not entered'
+                displaybox2.innerHTML="key number is not entered"
                 return 0;
             }
             if(key.length<10 || key.length>10){
@@ -26,7 +25,7 @@ let data = ["1111111111","2222222222","3333333333"]
 
             if(count==true){
                 displaybox2.innerHTML=""
-                displaybox1.innerHTML = "certificate is valid"
+                displaybox1.innerHTML = " ✅✔✓ certificate is valid"
                 return 0;
             }
             else{
